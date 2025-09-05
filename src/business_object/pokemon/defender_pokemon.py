@@ -1,7 +1,7 @@
-from abstract_pokemon import AbstractPokemon
+from business_object.pokemon.abstract_pokemon import AbstractPokemon
 
 
-class Defender(AbstractPokemon):
+class DefenderPokemon(AbstractPokemon):
     """ """
 
     def __init__(self, stat_max=None, stat_current=None, level=0, name=None):

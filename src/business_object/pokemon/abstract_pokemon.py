@@ -20,8 +20,8 @@ class AbstractPokemon(ABC):
         self._stat_max: Statistic = stat_max
         self._stat_current: Statistic = stat_current
         self._level: int = level
-        self._name: str = name
-        self._type: str = type_pk
+        self._name: str | None = name
+        self._type: str | None = type_pk
 
     # -------------------------------------------------------------------------
     # Methods

@@ -6,7 +6,7 @@ from business_object.statistic import Statistic
 class TestAttackFormulaDamage:
     def test_attack_formula(self):
         # GIVEN
-        bulldoze = PhysicalFormulaAttack(60, "bulldoze", "Lowers opponent's Speed.", "Physical")
+        bulldoze = PhysicalFormulaAttack(60, "bulldoze", "Lowers opponent's Speed.")
         poke1 = AllRounderPokemon(stat_current=Statistic(attack=200, defense=100))
 
         # WHEN

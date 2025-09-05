@@ -1,10 +1,10 @@
 import copy
-from abc import abstractmethod
+from abc import ABC, abstractmethod
 
 from business_object.statistic import Statistic
 
 
-class AbstractPokemon:
+class AbstractPokemon(ABC):
     """
     A Pokemon
     """
